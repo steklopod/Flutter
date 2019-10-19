@@ -1,4 +1,3 @@
-! [App Brewery Banner](https://github.com/steklopod/Flutter/blob/02-MiCard/images/Layout-Challenge-Specs.png)
 
 # Mi Card
 
@@ -27,3 +26,5 @@ Mi Card - это личная визитная карточка. Предста�
 
 * Как `оформить текстовые виджеты`
 
+
+![App Brewery Banner](https://github.com/steklopod/Flutter/blob/02-MiCard/images/Layout-Challenge-Specs.png)
