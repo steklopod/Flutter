@@ -1,28 +1,31 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+! [App Brewery Banner] (https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
 # Mi Card
 
-## Our Goal
+## Наша цель
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+Теперь, когда вы узнали, как создать приложение Flutter с нуля, мы пойдем дальше и узнаем больше о том,
+как разрабатывать пользовательские интерфейсы для приложений Flutter.
 
-## What you will create
+## Что вы создадите
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+Mi Card - это личная визитная карточка. Представьте, что вы каждый раз хотели сообщить кому-то свои
+контактные данные или свою визитную карточку, но у вас их не было. Ну, теперь вы можете заставить их загружать вашу визитную карточку как приложение.
 
-## What you will learn
+## Что вы узнаете
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
+* Как создавать `Stateless Widgets`
 
+* Как использовать [контейнеры](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+ для разметки вашего интерфейса
 
+* Как использовать столбцы и строки, чтобы расположить элементы пользовательского интерфейса
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+* Как добавить пользовательские шрифты
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+* Как добавить иконки материалов
+
+* Как оформить текстовые виджеты
+
+* Как читать и использовать документацию Flutter
+
