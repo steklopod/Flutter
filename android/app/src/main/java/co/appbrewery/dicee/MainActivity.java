@@ -1,4 +1,4 @@
-package steklopod.by.i_am_rich;
+package co.appbrewery.dicee;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
