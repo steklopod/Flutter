@@ -1,7 +1,7 @@
 
 # Mi Card
 
-![App Brewery Banner](https://github.com/steklopod/Flutter/blob/02-MiCard/images/prev.png){ width=50% }
+![App Brewery Banner](./images/prev.png =250x )
 
 
 ## Что вы создадите
