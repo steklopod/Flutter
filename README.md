@@ -1,28 +1,14 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Xylophone 🎹
 
-# mi_card
+Мы собираемся сделать музыкальное приложение, которое воспроизводит звуки ксилофона. 
+Для каждого Бетховена это позволит вам раскрыть свой музыкальный талант, где бы вы ни были.
 
-## Our Goal
+<img width="200" src="https://github.com/londonappbrewery/Images/blob/master/xylophone-flutter.png"/>
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+## Что вы узнаете
 
-## What you will create
-
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
-
-## What you will learn
-
-* How to create Stateless Widgets
-* What is hot reload and hot refresh
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
-
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+- Как включить библиотеки с открытым исходным кодом в ваш проект.
+- Как воспроизводить звук на iOS и Android.
+- Как генерировать повторяющиеся виджеты пользовательского интерфейса.
+- Как использовать функции Dart, которые могут принимать входные аргументы, а также возвращать выходные данные.
+- Синтаксис стрелочных функций для написания однострочных функций-лямбд.
