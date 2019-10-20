@@ -8,7 +8,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: Text('Dicee'),
+          title: Text('Кубики'),
           backgroundColor: Colors.red,
         ),
         body: DicePage(),
@@ -24,7 +24,16 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   int leftDiceNumber = 1;
-  int rightDiceNumber = 5;
+  int rightDiceNumber = 6;
+
+  void randomDice() {
+    setState(() {
+      this.leftDiceNumber = this.random();
+      this.rightDiceNumber = this.random();
+    });
+  }
+
+  int random() => Random().nextInt(6) + 1;
 
   @override
   Widget build(BuildContext context) {
@@ -35,10 +44,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               child: Image.asset('images/dice$leftDiceNumber.png'),
               onPressed: () {
-                setState(() {
-                  leftDiceNumber = randomDice();
-                });
-
+                this.randomDice();
                 print('left');
               },
             ),
@@ -47,9 +53,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               child: Image.asset('images/dice$rightDiceNumber.png'),
               onPressed: () {
-                setState(() {
-                  rightDiceNumber = randomDice();
-                });
+                this.randomDice();
               },
             ),
           )
@@ -57,6 +61,4 @@ class _DicePageState extends State<DicePage> {
       ),
     );
   }
-
-  int randomDice() => Random().nextInt(5) + 1;
 }
