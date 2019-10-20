@@ -1,11 +1,7 @@
 
 # Mi Card
 
-![App Brewery Banner](./images/prev.png)
-
-2
-
-<img src="/images/prev.png" alt="drawing" width="200"/>
+<img src="/images/prev.png" alt="drawing" width="200" style="float:left; border-radius: 20px"/>
 
 ## Что вы создадите
 
